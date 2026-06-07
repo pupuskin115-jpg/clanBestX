@@ -1,0 +1,11 @@
+name: ClansPlugin
+version: 1.0
+main: ru.clansplugin.ClansPlugin
+api-version: 1.21
+author: Grok
+description: Плагин кланов с CP, эффектами и GUI
+commands:
+  clan:
+    description: Меню клана
+    usage: /clan [create|invite|kick|leave]
+    aliases: [кланы, клан]
